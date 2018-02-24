@@ -43,7 +43,7 @@ body {
 
 .parallax {
     /* The image used */
-    background-image: url("homedeconstructbw.png");
+    background-image: url("mainimg/homedeconstructbw.png");
 
     /* Set a specific height */
     height: 100px;
@@ -57,7 +57,7 @@ body {
 
 .topPanel {
     /* The image used */
-    background-image: url("homedeconstructbb.png");
+    background-image: url("mainimg/homedeconstructbb.png");
 
     /* Set a specific height */
     height: 300px;
@@ -73,7 +73,7 @@ body {
 
 .topPanelY {
     /* The image used */
-    /*background-image: url("homedeconstructby.png");*/
+    /*background-image: url("mainimg/homedeconstructby.png");*/
 
 		background-color: black;
 
