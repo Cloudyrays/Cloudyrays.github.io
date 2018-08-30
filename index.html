@@ -1,26 +1,153 @@
 <html>
-<head>
-  <title>Sophia Niergarth</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <head>
+    <title>Sophia Niergarth</title>
 
-  <!--new stuff above -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400|Open+Sans:300" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-        rel="stylesheet">
-  <link href="http://weloveiconfonts.com/api/?family=entypo"
-        rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+  </head>
 
-	This website is under construction!
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-</body>
+    <!-- Nav Bar -->
+    <div class="navcontain">
+      <nav class="navbar">
+        <ul class="navbar-nav" style="list-style-type: none; display:inline; padding-left:10px;padding-right:10px">
+            <li style="padding-right:40px;padding-left:10px"><a href="#home">Sophia Niergarth</a></li>
+            <li><a href="#section1">projects</a></li>
+            <li>/</li>
+            <li><a href="#section2">about</a></li>
+            <li>/</li>
+            <li><a href="#section3">links</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Top of Page -->
+    <h1 id="home" style="padding-top:100px;margin-bottom:0;font-size:58px"> sophie makes things </h1>
 
+    <!-- Projects -->
+    <p id="section1" style="padding-bottom:50px;margin:0"> ... </p>
+
+    <div style="text-align:center">
+      <div class="container">
+        <img class="round" src="indexImg/forest.png" alt="forest">
+         <a href="fullfeather.html">
+          <div class="overlay">
+            <div class="overText">
+              full feather
+              <div style="font-size:12pt;letter-spacing:2px">
+                a game about costume and nature
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="container">
+        <img class="round" src="indexImg/thesis.png" alt="thesis">
+        <a href="thesis.html">
+          <div class="overlay">
+            <div class="overText">
+              carried
+              <div style="font-size:12pt;letter-spacing:2px">
+                a game research project and paper
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div style="text-align:center">
+      <div class="container">
+        <img class="round" src="indexImg/paint.png" alt="paint">
+        <a href="illustration.html">
+          <div class="overlay">
+            <div class="overText">
+            illustration
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="container">
+        <img class="round" src="indexImg/model.png" alt="model">
+        <a href="3D.html">
+          <div class="overlay">
+            <div class="overText">
+            3D
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div style="text-align:center">
+      <div class="container">
+        <img class="round" src="indexImg/chrom.jpg" target="_blank" alt="paint">
+        <a href="https://sophia-huynh.itch.io/chrominance">
+          <div class="overlay">
+            <div class="overText">
+            chrominance
+              <div style="font-size:12pt;letter-spacing:2px">
+                3D modelling and animation for an atmospheric stealth game (click for the Itch page)
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- About -->
+    <h2 id="section2" style="padding-top:100px"> about </h2>
+
+    <div style="text-align:center">
+      <div style="display:inline-block;max-width:500px;width:60%">
+        <p style="padding:0px;padding-top:30px;letter-spacing:1;text-align:left;margin:0;text-indent:50"> Hi! Thanks for visiting my website. I’m an artist and game maker. I love combining art, technology, and different types of media. I also like baking and bees and research (primary and secondary) My favourite things to make are 3D environments and unconventional game mechanics. I have a Bachelor of Design from OCAD U.  </p>
+      </div>
+    </div>
+
+    <!-- Links -->
+    <h2 id="section3" style="padding-top:100px"> links </h2>
+
+    <p style="padding-bottom:100px;">
+      for process and ideas, see my
+      <a href="https://sophiemakesthings.wordpress.com/" class="wordLink" target="_blank">blog</a>
+      <br><br>
+        for updates or to say hi, check out
+      <a href="https://twitter.com/SophGarth" class="wordLink" target="_blank">twitter</a>
+      <br><br>
+        for professional experience, visit
+      <a href="https://www.linkedin.com/in/sophianiergarth" class="wordLink" target="_blank">linkedin</a>
+    </p>
+
+    <!-- Smooth Scroll -->
+    <script>
+      $(document).ready(function(){
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+            // Store hash
+            var hash = this.hash;
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 900, function(){
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      })
+    </script>
+
+  </body>
 
 </html>
+
