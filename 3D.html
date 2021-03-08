@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="modalSlides.js"></script>
 
   </head>
 
@@ -66,18 +67,18 @@
     <div id="myModal" class="modal">
       <div class="modal-content">
 
-        
+
         <div class="mySlides">
           <img src="3DImg/3D13.png" alt="model" class="slideImg">
           <div class="slide-descr"> Stylized Rugged House </div>
           <img src="3DImg/3D14.png" alt="model" class="slideImg">
-          <div class="slide-descr"> This model was modelled, painted and rendered in Blender. 
-                                  I had been researching 18th century and medieval Scandinavian architecture for a story about a small village buffeted by snow storms. 
-                                  This house borrows elements from each. For example, the roof shingles are 
-                                  based on an image of a manor house in Lars Bolander's Scandinavian Design by Heather MacIsaac. 
-                                  Used in this context, they look a bit 
+          <div class="slide-descr"> This model was modelled, painted and rendered in Blender.
+                                  I had been researching 18th century and medieval Scandinavian architecture for a story about a small village buffeted by snow storms.
+                                  This house borrows elements from each. For example, the roof shingles are
+                                  based on an image of a manor house in Lars Bolander's Scandinavian Design by Heather MacIsaac.
+                                  Used in this context, they look a bit
                                   like popsicle sticks, giving a more childish, fairytale look.
-                                  The book describes how medieval storehouses were often raised above the ground for practical reasons. 
+                                  The book describes how medieval storehouses were often raised above the ground for practical reasons.
                                   Both supported and engulfed by trees, I'd like to think this house illustrates the complicated
                                   relationship between its inhabitants and their natural environment. </div>
 
@@ -89,14 +90,14 @@
           <div class="slide-descr"> Stylized low poly house </div>
           <div class="numbertext">2 / 7</div>
         </div>
-                                 
+
         <div class="mySlides">
           <img src="3DImg/3D9.png" alt="model" class="slideImg">
 
           <div class="slide-descr"> Stylized cottage kitchen assets </div>
           <div class="numbertext">3 / 7</div>
         </div>
-                                 
+
         <div class="mySlides">
           <img src="3DImg/3D10.png" alt="model" class="slideImg">
           <img src="3DImg/3D11.png" alt="model" class="slideImg">
@@ -104,7 +105,7 @@
           <div class="slide-descr"> Boston-inspired low poly house </div>
           <div class="numbertext">4 / 7</div>
         </div>
-                                 
+
         <div class="mySlides">
           <img src="3DImg/3D12.png" alt="model" class="slideImg">
           <div class="slide-descr"> Rigged low poly bear for Full Feather </div>
@@ -116,7 +117,7 @@
           <div class="slide-descr"> Human Face Study using Blender sculpting</div>
           <div class="numbertext">6 / 7</div>
         </div>
-                                 
+
         <div class="mySlides">
           <img src="3DImg/3D6.png" alt="painting" class="slideImg">
           <div class="slide-descr"> This is a 3D interpretation of a Kay Nielsen fairytale illustration. It was modeled in Blender and put together in Unity. A handful of custom shaders were created to make visual adjustments quicker and easier. For example, the landscape fades into multiple colours, which can be individually set. Unseen parts such as the rest of the tapestries were imagined to reflect the tone of the
@@ -126,7 +127,7 @@
           <img src="3DImg/3D4.png" alt="painting" class="slideImg">
           <img src="3DImg/3D3.png" alt="painting" class="slideImg" style="padding-top:20px">
           <div class="slide-descr">
-            The landscape was sculpted from above while consulting a camera that recreated the perspective in the original image. The task of interpreting the 'unseen' part, the part that Nielsen left to the viewer's imagination, was exciting. 
+            The landscape was sculpted from above while consulting a camera that recreated the perspective in the original image. The task of interpreting the 'unseen' part, the part that Nielsen left to the viewer's imagination, was exciting.
           </div>
           <div class="numbertext">7 / 7</div>
         </div>
@@ -139,44 +140,6 @@
 
       </div>
     </div>
-
-
-    <script>
-    // Open the Modal
-    function openModal() {
-      document.getElementById('myModal').style.display = "block";
-    }
-
-    // Close the Modal
-    function closeModal() {
-      document.getElementById('myModal').style.display = "none";
-    }
-
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    // Next/previous controls
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-
-    // Thumbnail image controls
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-
-      slides[slideIndex-1].style.display = "block";
-    }
-    </script>
 
   </body>
 

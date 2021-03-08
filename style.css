@@ -95,6 +95,12 @@ img.illu:hover {
   display:inline-block;
 }
 
+.coTight {
+  width:250;
+  display:inline-block;
+  padding:10px;
+}
+
 .overlay {
   top: 0;
   bottom: 0;
@@ -180,10 +186,29 @@ img.blockImg {
   border-radius:10%;
 }
 
+img.header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 500;
+  padding-top:100
+}
+
+
 p.block {
   text-align: justify;
   text-indent: 50px;
 
+}
+
+p.middleText  {
+  text-align: justify;
+  text-indent: 50px;
+  display:inline-block;
+  max-width:700px;
+  padding-left:80px;
+  padding-right:80px
 }
 
 p.center {
@@ -229,7 +254,7 @@ p.center {
   position: fixed;
   top: 100px;
   right: 50px;
-  font-size: 35px;
+  font-size: 45px;
   font-weight: bold;
 }
 
@@ -249,14 +274,14 @@ p.center {
 .prev,
 .next {
   cursor: pointer;
-  position: absolute;
+  position: fixed;
   top: 50%;
   width: auto;
-  padding: 16px;
+  padding: 50px;
   margin-top: -50px;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 50px;
   transition: 0.6s ease;
   user-select: none;
   -webkit-user-select: none;
@@ -313,4 +338,12 @@ img.slideImg {
   padding: 20px;
   letter-spacing: 1px;
   color:white;
+}
+
+/* Number text (1/3 etc) */
+.numbertextPg {
+  font-size: 14px;
+  padding: 8px 12px;
+  font-family: 'Quicksand', sans-serif;
+  top: 0;
 }

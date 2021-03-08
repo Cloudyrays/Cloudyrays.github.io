@@ -1,0 +1,323 @@
+<html>
+  <head>
+    <title>Woodland Mysteries</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="modalSlides.js"></script>
+
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="50" style="padding:0; margin:0">
+
+
+    <!-- Nav Bar -->
+    <div class="navcontain">
+      <nav class="navbar">
+        <ul class="navbar-nav" style="list-style-type: none; display:inline;  padding-left:10px;padding-right:10px">
+            <li style="padding-right:40px;padding-left:10px"><a href="index.html#home">Sophia Niergarth</a></li>
+            <li><a href="index.html#section1">more projects</a></li>
+            <li>/</li>
+            <li><a href="index.html#section2">about</a></li>
+            <li>/</li>
+            <li><a href="index.html#section3">links</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="navcontain" style="text-align:right;padding-right:20">
+      <nav class="navbar">
+        <ul class="navbar-nav" style="list-style-type: none; display:inline;  padding-left:10px;padding-right:10px">
+            <li><a href="#top"">^top</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Bg Header -->
+    <!--<h1 style="padding-top:100px;"> Woodland Mysteries </h1>-->
+    <img class="header" src="pbImg/wm_small.png" alt="woodlandmysteries">
+    <!-- Top of Page -->
+
+    <div style="text-align:center;padding:0">
+
+      <h2>Overview</h2>
+      <p class="middleText">
+        Woodland Mysteries was an app in development at <a href="https://www.pop-base.com/woodlandfables">Popbase</a> meant to teach kids about wellness through interactive storytelling.
+        The story followed a small creature’s adventures solving mysteries with his friends in a peculiar, ancient forest.
+        My role was to design and create most of the art, define the overall look of the app and give direction to other artists.
+      </p>
+
+      <h2>Environments</h2>
+
+      <div class="coTight">
+        <img class="illu" src="pbImg/clovergarden.gif" alt="enviro" onclick="openModal();currentSlide(1)">
+      </div>
+      <div class="coTight">
+        <img class="illu" src="pbImg/hollylabmodels.png" alt="enviro" onclick="openModal();currentSlide(2)">
+      </div>
+      <div class="coTight">
+        <img class="illu" src="pbImg/squash_left.png" alt="enviro" onclick="openModal();currentSlide(3)">
+      </div>
+
+      <p class="middleText">
+        Building the world of Woodland Mysteries was one of my favourite parts of this whole experience.
+        This consisted of research, sketching, creative discussions, concept art, block-ins, polishing
+        3d models, texturing, Unity set up with lights and materials, animating objects, creating particle effects,
+        testing, and making adjustments as the needs for the environments evolved.
+      </p>
+
+      <br>
+
+      <div class="coTight">
+        <img class="illu" src="pbImg/squash_right.png" alt="enviro" onclick="openModal();currentSlide(4)">
+      </div>
+
+      <br>
+
+      <p class="middleText">
+        Each environment was a bit different in terms of user interaction.
+        Consequently, the design process involved thinking of things such as how the camera would move,
+        what needed to catch the user’s attention and whether walkable areas needed to be delineated.
+      </p>
+
+      <br>
+
+      <div class="coTight">
+        <img class="illu" src="pbImg/rhouseconcept.png" alt="enviro" onclick="openModal();currentSlide(5)">
+      </div>
+      <div class="coTight">
+        <img class="illu" src="pbImg/rhousemodels.png" alt="enviro" onclick="openModal();currentSlide(6)">
+      </div>
+
+      <br>
+
+      <p class="middleText">
+        Additionally, every space  needed to reflect the larger world, the story of how it was created and of who used it.
+        This was a world where smaller creatures interacted with much larger creatures, ancient cultural artifacts were
+        uncovered and re-purposed and animals made do with the materials in their natural environment and expressed their
+        personalities through their choice of habitat.
+      </p>
+
+      <br>
+
+      <h2>The Look</h2>
+
+      <div class="coTight">
+        <img class="illu" src="pbImg/steam.gif" alt="enviro" onclick="openModal();currentSlide(7)">
+      </div>
+      <div class="coTight">
+        <img class="illu" src="pbImg/garden_concept.png" alt="enviro" onclick="openModal();currentSlide(8)">
+      </div>
+      <div class="coTight">
+        <img class="illu" src="pbImg/garden_entrance.png" alt="enviro" onclick="openModal();currentSlide(9)">
+      </div>
+
+      <br>
+
+      <p class="middleText">
+         I really wanted this world to look like something out of a children’s picture book.
+         Those illustrations are what fed my imagination growing up.
+         There are a lot of textures and they’re all very gestural or painterly with the goal of
+         achieving a charming, hand-drawn quality.
+      </p>
+
+      <br>
+
+      <div class="coTight">
+        <img class="illu" src="pbImg/shader.png" alt="enviro" onclick="openModal();currentSlide(10)">
+      </div>
+
+      <br>
+
+      <p class="middleText">
+        I ended up writing some shaders (hlsl) and then re-creating them in Amplify in order to create this specific look.
+        Using custom shaders allowed for control over the final colours,
+        stylized shading and also fun effects like wind animated plants and shining trophies.
+      </p>
+
+      <h2>Characters</h2>
+
+      <div class="coTight">
+        <img class="illu" src="pbImg/cloversquash.gif" alt="enviro" onclick="openModal();currentSlide(11)">
+      </div>
+      <div class="coTight">
+        <img class="illu" src="pbImg/cloverwireframe.png" alt="enviro" onclick="openModal();currentSlide(12)">
+      </div>
+
+      <br>
+
+      <p class="middleText">
+        A curious rodent named Clover was Woodland Fables' protagonist.
+        To create Clover, I sketched out various character ideas and
+        built on my favourites.
+        I modeled and rigged Clover, painted a texture and added blendshapes for emoting and talking.
+      </p>
+
+      <br>
+
+      <div class="coTight">
+        <img class="illu" src="pbImg/col_charmodels.png" alt="enviro" onclick="openModal();currentSlide(13)">
+      </div>
+
+      <div class="coTight">
+        <img class="illu" src="pbImg/intelligo_iteration.jpg" alt="enviro" onclick="openModal();currentSlide(14)">
+      </div>
+
+      <p class="middleText">
+        I modeled some other characters as well, typically starting from concept art that another artist had created.
+        <br><br>
+        For the robotic character of intelligo, I sketched out concepts,
+        then developed one iteratively in Blender until we had a final design.
+      </p>
+
+      <h2>Unity Animation</h2>
+
+      <div class="coTight">
+        <img class="illu" src="pbImg/door.gif" alt="enviro" onclick="openModal();currentSlide(15)">
+      </div>
+      <div class="coTight">
+        <img class="illu" src="pbImg/ball.gif" alt="enviro" onclick="openModal();currentSlide(16)">
+      </div>
+      <div class="coTight">
+        <img class="illu" src="pbImg/leafpile.gif" alt="enviro" onclick="openModal();currentSlide(17)">
+      </div>
+
+      <br>
+
+      <p class="middleText">
+        The project required a variety of interactable objects to be created and animated in different ways in Unity.
+        Each had their own specific set ups involving some mixture of special shaders, particle effects,
+        animation clips, blendshapes and occasionally mobile-friendly volumetric light fakery.
+      </p>
+
+      <br>
+
+      <div class="coTight">
+        <img class="illu" src="pbImg/bookcase.gif" alt="enviro" onclick="openModal();currentSlide(18)">
+      </div>
+
+      <br>
+
+      <p class="middleText">
+        Often, these objects needed to indicate that they were interactive and that you tapping on them did something.
+        One of the coolest objects was a rotating, infinite, secret, interactive bookshelf.
+      </p>
+
+      <br>
+
+      <div class="coTight">
+        <img class="illu" src="pbImg/gardentosquash_short.gif" alt="enviro" onclick="openModal();currentSlide(19)">
+      </div>
+
+      <br>
+
+      <p class="middleText">
+        There were also some UI elements, which I helped animate and sometimes design or create,
+        such 2D transitions for when players moved from one space to another.
+        <br><br>
+        <b>Note:</b> I helped with UI mock ups and initial designs,
+         but the final UI was handled beautifully by a UI specialist. Character animations were also handled by other, very talented artists.
+         Otherwise, all the screenshots you see on this page are of art that I made.
+      </p>
+
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+
+          <div class="mySlides">
+            <img src="pbImg/clovergarden.gif" alt="pbImg" class="slideImg">
+            <div class="numbertext">1 / 19</div>
+          </div>
+          <div class="mySlides">
+            <img src="pbImg/hollylabmodels.png" alt="pbImg" class="slideImg">
+            <div class="numbertext">2 / 19</div>
+          </div>
+          <div class="mySlides">
+            <img src="pbImg/squash_left.png" alt="pbImg" class="slideImg">
+            <div class="numbertext">3 / 19</div>
+          </div>
+          <div class="mySlides">
+            <img src="pbImg/squash_right.png" alt="pbImg" class="slideImg">
+            <div class="numbertext">4 / 19</div>
+          </div>
+          <div class="mySlides">
+            <img src="pbImg/rhouseconcept.png" alt="pbImg" class="slideImg">
+            <div class="numbertext">5 / 19</div>
+          </div>
+          <div class="mySlides">
+            <img src="pbImg/rhousemodels.png" alt="pbImg" class="slideImg">
+            <div class="numbertext">6 / 19</div>
+          </div>
+          <div class="mySlides">
+            <img src="pbImg/steam.gif" alt="pbImg" class="slideImg">
+            <div class="numbertext">7 / 19</div>
+          </div>
+          <div class="mySlides">
+            <img src="pbImg/garden_concept.png" alt="pbImg" class="slideImg">
+            <div class="numbertext">8 / 19</div>
+          </div>
+          <div class="mySlides">
+            <img src="pbImg/garden_entrance.png" alt="pbImg" class="slideImg">
+            <div class="numbertext">9 / 19</div>
+          </div>
+          <div class="mySlides">
+            <img src="pbImg/shader.png" alt="pbImg" class="slideImg">
+            <div class="numbertext">10 / 19</div>
+          </div>
+          <div class="mySlides">
+            <img src="pbImg/cloversquash.gif" alt="pbImg" class="slideImg">
+            <div class="numbertext">11 / 19</div>
+          </div>
+          <div class="mySlides">
+            <img src="pbImg/cloverwireframe.png" alt="pbImg" class="slideImg">
+            <div class="numbertext">12 / 19</div>
+          </div>
+          <div class="mySlides">
+            <img src="pbImg/col_charmodels.png" alt="pbImg" class="slideImg">
+            <div class="numbertext">13 / 19</div>
+          </div>
+          <div class="mySlides">
+            <img src="pbImg/intelligo_iteration.jpg" alt="pbImg" class="slideImg">
+            <div class="numbertext">14 / 19</div>
+          </div>
+          <div class="mySlides">
+            <img src="pbImg/door.gif" alt="pbImg" class="slideImg">
+            <div class="numbertext">15 / 19</div>
+          </div>
+          <div class="mySlides">
+            <img src="pbImg/ball.gif" alt="pbImg" class="slideImg">
+            <div class="numbertext">16 / 19</div>
+          </div>
+          <div class="mySlides">
+            <img src="pbImg/leafpile.gif" alt="pbImg" class="slideImg">
+            <div class="numbertext">17 / 19</div>
+          </div>
+          <div class="mySlides">
+            <img src="pbImg/bookcase.gif" alt="pbImg" class="slideImg">
+            <div class="numbertext">18 / 19</div>
+          </div>
+          <div class="mySlides">
+            <img src="pbImg/gardentosquash_short.gif" alt="pbImg" class="slideImg">
+            <div class="numbertext">19 / 19</div>
+          </div>
+
+          <div class="slide-descr">
+           </div>
+
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+      </div>
+
+
+
+  </body>
+
+</html>
